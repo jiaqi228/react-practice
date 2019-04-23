@@ -36,3 +36,8 @@ code {
   .star.selected {
   background-color: red;
   }
+
+  .colorBox {
+    width: 1cm;
+    height: 1cm;
+  }
