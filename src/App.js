@@ -49,7 +49,7 @@ class App extends Component {
   }
 
   rateColor(id, rating) {
-    const colors = this.state.map(
+    const colors = this.state.colors.map(
       color => (color.id !== id) ? color : { ...color, rating }
     )
     this.setState({ colors })
